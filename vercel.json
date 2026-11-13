@@ -1,17 +1,96 @@
 {
   "cleanUrls": true,
   "redirects": [
-    { "source": "/sobre-nos", "destination": "/#sobre", "permanent": true },
-    { "source": "/sobre-nos/", "destination": "/#sobre", "permanent": true },
-    { "source": "/servicos/:path*", "destination": "/#servicos", "permanent": true },
-    { "source": "/assessoria-de-engenharia/:path*", "destination": "/#servicos", "permanent": true },
-    { "source": "/copia-de-assessoria-de-engenharia/:path*", "destination": "/#servicos", "permanent": true },
-    { "source": "/manutencao-predial/:path*", "destination": "/#servicos", "permanent": true },
-    { "source": "/projetos/:path*", "destination": "/#clientes", "permanent": true },
-    { "source": "/contato/:path*", "destination": "/#contato", "permanent": true },
-    { "source": "/portal-do-usuario/:path*", "destination": "https://portal-evidencias.jotaslz.com/portal/login", "permanent": false }
+    {
+      "source": "/sobre-nos",
+      "destination": "/#sobre",
+      "permanent": true
+    },
+    {
+      "source": "/sobre-nos/",
+      "destination": "/#sobre",
+      "permanent": true
+    },
+    {
+      "source": "/servicos",
+      "destination": "/#servicos",
+      "permanent": true
+    },
+    {
+      "source": "/servicos/",
+      "destination": "/#servicos",
+      "permanent": true
+    },
+    {
+      "source": "/assessoria-de-engenharia",
+      "destination": "/#servicos",
+      "permanent": true
+    },
+    {
+      "source": "/assessoria-de-engenharia/",
+      "destination": "/#servicos",
+      "permanent": true
+    },
+    {
+      "source": "/copia-de-assessoria-de-engenharia",
+      "destination": "/#servicos",
+      "permanent": true
+    },
+    {
+      "source": "/copia-de-assessoria-de-engenharia/",
+      "destination": "/#servicos",
+      "permanent": true
+    },
+    {
+      "source": "/manutencao-predial",
+      "destination": "/#servicos",
+      "permanent": true
+    },
+    {
+      "source": "/manutencao-predial/",
+      "destination": "/#servicos",
+      "permanent": true
+    },
+    {
+      "source": "/projetos",
+      "destination": "/#clientes",
+      "permanent": true
+    },
+    {
+      "source": "/projetos/",
+      "destination": "/#clientes",
+      "permanent": true
+    },
+    {
+      "source": "/contato",
+      "destination": "/#contato",
+      "permanent": true
+    },
+    {
+      "source": "/contato/",
+      "destination": "/#contato",
+      "permanent": true
+    },
+    {
+      "source": "/portal-do-usuario",
+      "destination": "https://portal-evidencias.jotaslz.com/portal/login",
+      "permanent": false
+    },
+    {
+      "source": "/portal-do-usuario/",
+      "destination": "https://portal-evidencias.jotaslz.com/portal/login",
+      "permanent": false
+    }
   ],
   "headers": [
-    { "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000" }] }
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    }
   ]
 }
